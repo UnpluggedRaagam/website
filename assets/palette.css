@@ -1,0 +1,48 @@
+/**
+ * Unplugged Raagam — site-wide color palette
+ * Derived from assets/logo.png (maroon, terracotta, peach, cream).
+ * Edit ONLY this file to recolor every page.
+ *
+ * --color-1 … --color-8 map to the 8B template inline CSS.
+ */
+
+:root {
+  /* From logo */
+  --sj-maroon-deep: #2d0a0a;   /* logo text arch / darkest */
+  --sj-maroon: #3d1414;        /* body text, manifesto ground */
+  --sj-terracotta: #a35f4d;    /* left dress — headings, buttons, nav accent */
+  --sj-terracotta-dark: #8e5448;
+  --sj-peach: #e5b09b;         /* right shirt — soft panels */
+  --sj-peach-light: #f0d5c8;
+  --sj-skin-mid: #c18b72;
+  --sj-hair: #2b1612;
+  --sj-silver: #a0a0a0;        /* mic — subtle UI chrome */
+  --sj-white: #ffffff;
+
+  /* Site surfaces (light theme — logo art stays on black inside PNG) */
+  --sj-canvas: #faf3ed;        /* warm cream page */
+  --sj-ink: var(--sj-maroon);
+  --sj-ink-muted: #5c2a2a;
+
+  /* Brand roles */
+  --sj-primary: var(--sj-terracotta);
+  --sj-primary-dark: var(--sj-terracotta-dark);
+  --sj-accent: var(--sj-maroon);
+  --sj-panel: #e8c4b4;         /* light terracotta wash */
+  --sj-blush: var(--sj-peach-light);
+  --sj-footer: #f5ddd3;
+  --sj-linen: #efe6de;
+  --sj-mist: #f3e0d6;           /* chips, stripes */
+
+  --sj-on-primary: #ffffff;
+  --sj-focus: var(--sj-terracotta-dark);
+
+  --color-1: var(--sj-canvas);
+  --color-2: var(--sj-ink);
+  --color-3: var(--sj-primary);
+  --color-4: var(--sj-panel);
+  --color-5: var(--sj-blush);
+  --color-6: var(--sj-accent);
+  --color-7: var(--sj-mist);
+  --color-8: var(--sj-linen);
+}

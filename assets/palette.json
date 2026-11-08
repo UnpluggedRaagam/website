@@ -1,0 +1,36 @@
+{
+  "name": "Unplugged Raagam",
+  "source": "assets/logo.png",
+  "description": "Maroon, terracotta, and peach from the Unplugged Raagam logo. Light cream site canvas.",
+  "logoColors": {
+    "maroon-deep": "#2d0a0a",
+    "maroon": "#3d1414",
+    "terracotta": "#a35f4d",
+    "terracotta-dark": "#8e5448",
+    "peach": "#e5b09b",
+    "peach-light": "#f0d5c8",
+    "hair-brown": "#2b1612",
+    "silver-mic": "#a0a0a0",
+    "white": "#ffffff",
+    "logo-black": "#000000"
+  },
+  "siteColors": {
+    "sj-canvas": "#faf3ed",
+    "sj-ink": "#3d1414",
+    "sj-primary": "#a35f4d",
+    "sj-panel": "#e8c4b4",
+    "sj-blush": "#f0d5c8",
+    "sj-mist": "#f3e0d6",
+    "sj-linen": "#efe6de"
+  },
+  "templateMap": {
+    "color-1": "sj-canvas",
+    "color-2": "sj-ink",
+    "color-3": "sj-primary",
+    "color-4": "sj-panel",
+    "color-5": "sj-blush",
+    "color-6": "sj-accent (maroon)",
+    "color-7": "sj-mist",
+    "color-8": "sj-linen"
+  }
+}

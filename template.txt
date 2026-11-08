@@ -1,0 +1,281 @@
+================================================================================
+UNPLUGGED RAAGAM — WEBSITE CONTENT TEMPLATE
+================================================================================
+Official site content for Unplugged Raagam (Telugu singalong & jamming community).
+
+Apply to code: edit scripts/build-site.mjs → run:  node scripts/build-site.mjs
+Colors only: assets/palette.css
+
+Pages: index.html (home) · gallery.html (photos)
+RSVP / contact section: removed (email + social in footer only)
+
+================================================================================
+PART A — BRAND SUMMARY (locked)
+================================================================================
+
+OFFICIAL_NAME: Unplugged Raagam
+
+WHAT_IT_IS:
+A safe, judgement-free Telugu singalong and jamming community for singers of
+all levels. Performers take the mic; the crowd sings along. No audition.
+
+WHO_ITS_FOR:
+Singers who need a crowd to perform for; audiences who want to sing along with
+performers (including beginners).
+
+PROOF:
+20+ events hosted to date; photo/video from past events for gallery and posters.
+
+SOCIAL (live accounts):
+Instagram — https://www.instagram.com/unplugged.raagam/
+YouTube   — https://www.youtube.com/@UnpluggedRaagam
+
+HOSTS:
+Lasya and Pranidhi — hosts and founders.
+
+================================================================================
+PART B — STILL TO DECIDE (checklist)
+================================================================================
+Mark when you have the real value and update build-site.mjs + rebuild.
+
+[ ] NEXT_EVENT_DATE
+[ ] NEXT_EVENT_THEME
+[ ] VENUE_NAME (for footer / future announcements)
+[ ] CITY (if not Hyderabad)
+[ ] PHONE (optional — left blank for now)
+[ ] JAM_HOURS (footer “Hours” line — use Instagram until fixed)
+[ ] OFFICE_HOURS (optional)
+[ ] HERO_IMAGE_FILE exists at assets/photos/hero-image.jpg + HERO_IMAGE_ALT text
+[ ] HOST_PORTRAIT_FILE + alt (letter section — still stock until you add)
+[ ] Gallery: replace 16 Unsplash tiles with assets/photos/event-01.jpg … event-16.jpg
+[ ] Gallery type tiles: replace demo text (Slow/Soft, picnic season, etc.)
+[ ] og:image URL when you have a share preview (1200×630)
+[ ] Public website URL after hosting
+[ ] PRIVACY_URL and TERMS_URL (footer links today are placeholders)
+[ ] Logo / wordmark design if “Unplugged | Raagam” split feels too long on mobile
+
+================================================================================
+PART C — MASTER CONTENT (copy source of truth)
+================================================================================
+
+--- Brand ---
+OFFICIAL_NAME: Unplugged Raagam
+TAGLINE_TELUGU_OR_ENGLISH: Telugu singalong & jamming community
+ONE_LINE_PITCH: A safe and judgement free singalong and jamming community for singers of all levels. Bring your voice, a favourite line, or just listen—lyrics on screen, tea on the side, no audition.
+
+HERO_SIDE_PANEL_TITLE: Unplugged Raagam
+HERO_SIDE_PANEL_SUB: Singalong & open jam
+HERO_SIDE_PANEL_FACTS:
+  - 20+ community events
+  - Judgement-free — beginners welcome
+  - Crowd sings with the performer
+  - Lyrics on screen · tea on the side · no audition
+  - Telugu film, folk & devotional favourites
+HERO_SIDE_PANEL_CTA: Follow for the next jam → Instagram
+
+SHORT_MANIFESTO_TITLE: The Unplugged Raagam spirit
+SHORT_MANIFESTO_BODY: A safe and judgement free singalong and jamming community for singers of all levels. Bring your voice, a favourite line, or just listen—lyrics on screen, tea on the side, no audition.
+SHORT_MANIFESTO_FOOTNOTE: Lasya and Pranidhi founded Unplugged Raagam and have hosted 20+ events with a community that keeps growing.
+
+--- Unplugged Raagam ---
+WHO_ITS_FOR: Singers who need a crowd to perform for; crowd who sings along with performers.
+EVENTS_DONE: 20+ past events.
+NEXT_EVENT_DATE: (announce on Instagram — add here when fixed)
+NEXT_EVENT_THEME: (add when fixed)
+VENUE_NAME: (add when fixed)
+CITY: (add when fixed — e.g. Hyderabad)
+
+--- SEO ---
+PAGE_TITLE_HOME: Unplugged Raagam — Telugu singalong & jamming community
+META_DESCRIPTION_HOME: A judgement-free Telugu singalong and jamming community for all levels. 20+ events. Lyrics on screen, no audition. Follow for the next night.
+PAGE_TITLE_GALLERY: Gallery — Unplugged Raagam
+META_DESCRIPTION_GALLERY: Photos from 20+ Unplugged Raagam singalongs and jam nights in Hyderabad.
+
+--- Navigation ---
+LOGO_VISIBLE: Unplugged Raagam (emphasis on “Raagam” in UI)
+NAV_LINKS: Home | Gallery
+HERO_PRIMARY_BUTTON: See the gallery
+HERO_SECONDARY_LINK: (none — hero shows only See the gallery)
+HERO_TAG_TELUGU_LEFT: తె
+HERO_TAG_TELUGU_RIGHT: లు
+HERO_TAG_CENTER: Telugu singalong & jamming community
+
+--- Contact (footer only) ---
+EMAIL: unpluggedraagam@gmail.com
+PHONE: (none on site yet)
+VISIT_LINE_1: (no fixed venue on site — use when VENUE_NAME is set)
+VISIT_LINE_2: (city line when CITY is set)
+HOURS_FOOTER: Event dates & venues — follow us on Instagram
+OFFICE_HOURS: (not shown)
+
+--- Social ---
+INSTAGRAM_URL: https://www.instagram.com/unplugged.raagam/
+INSTAGRAM_LABEL: Instagram
+YOUTUBE_URL: https://www.youtube.com/@UnpluggedRaagam
+YOUTUBE_LABEL: YouTube
+
+--- Host letter ---
+LETTER_HEADLINE: Dear singer,
+HOST_LETTER_PARAGRAPH_1: We are Lasya and Pranidhi, hosts and founders of Unplugged Raagam. We are a team of two who are passionate about music and want to create a safe and judgement free space for singers to perform and sing along.
+HOST_LETTER_PARAGRAPH_2: We have successfully hosted more than 20 events to date and have a strong community of singers who sing together and jam after.
+HOST_LETTER_PARAGRAPH_3: We are always looking for new singers to join our community and perform with us. We are also looking for new venues to host our events.
+HOST_SIGNATURE_LINE: Lasya and Pranidhi · Hosts & founders
+HOST_PORTRAIT_L_FILE: assets/photos/lasya.jpg
+HOST_PORTRAIT_L_ALT: Lasya, co-host of Unplugged Raagam
+HOST_PORTRAIT_R_FILE: assets/photos/pranidhi.jpg
+HOST_PORTRAIT_R_ALT: Pranidhi, co-host of Unplugged Raagam
+LETTER_MOTTO: Sing together.
+
+--- Hero ---
+HERO_WORDMARK_SR: Unplugged Raagam
+HERO_WORD_LEFT: Unplugged
+HERO_WORD_RIGHT: Raagam
+HERO_INTRO: A safe and judgement free singalong and jamming community for singers of all levels. Bring your voice, a favourite line, or just listen—lyrics on screen, tea on the side, no audition.
+HERO_BACKGROUND: assets/gallery/* (auto slideshow, scripts/build-site.mjs)
+HERO_IMAGE_FILE: (optional) assets/photos/hero-image.jpg — until then the hero arch shows HERO_SIDE_PANEL_* copy
+HERO_IMAGE_ALT: Singers at an Unplugged Raagam jam night (when photo is used)
+
+--- Cafes carousel (home) ---
+CAFES_SECTION_TITLE: Cafes collaborated so far
+CAFES_FOLDER: assets/cafes/ (cafe 1.jpg … cafe 15.jpg)
+CAFES_UI: React — frontend/src/components/ui/image-auto-slider.tsx
+CAFES_BUILD: cd frontend && npm run build:island → assets/cafes-island/
+CAFES_STATIC: node scripts/build-site.mjs embeds #cafes-root + island JS/CSS
+
+--- Gallery ---
+GALLERY_TITLE: Moments from Unplugged Raagam
+GALLERY_INTRO: Tap a circle, use arrows, or wait for autoplay — snapshots from singalongs and jam nights.
+GALLERY_FOLDER: assets/gallery/ (all images auto-included on build)
+GALLERY_UI: React carousel — frontend/src/components/ui/carousel-circular-image-gallery.tsx (GSAP MotionPath)
+GALLERY_BUILD: cd frontend && npm run build:gallery-island → assets/gallery-island/
+
+Suggested local files (create as you export from past events):
+PHOTO_01_PATH: assets/photos/event-01.jpg
+PHOTO_01_ALT: Unplugged Raagam singalong — crowd and performers
+PHOTO_02_PATH: assets/photos/event-02.jpg
+PHOTO_02_ALT: Unplugged Raagam jam night
+PHOTO_03_PATH: assets/photos/event-03.jpg
+PHOTO_03_ALT: Singer with lyrics on screen
+PHOTO_04_PATH: assets/photos/event-04.jpg
+PHOTO_04_ALT: Audience singing along
+PHOTO_05_PATH: assets/photos/event-05.jpg
+PHOTO_05_ALT: Open mic at Unplugged Raagam
+PHOTO_06_PATH: assets/photos/event-06.jpg
+PHOTO_06_ALT: After-jam hangout
+PHOTO_07_PATH: assets/photos/event-07.jpg
+PHOTO_07_ALT: Community photo
+PHOTO_08_PATH: assets/photos/event-08.jpg
+PHOTO_08_ALT: Community photo
+PHOTO_09_PATH: assets/photos/event-09.jpg
+PHOTO_09_ALT: Community photo
+PHOTO_10_PATH: assets/photos/event-10.jpg
+PHOTO_10_ALT: Community photo
+PHOTO_11_PATH: assets/photos/event-11.jpg
+PHOTO_11_ALT: Community photo
+PHOTO_12_PATH: assets/photos/event-12.jpg
+PHOTO_12_ALT: Community photo
+PHOTO_13_PATH: assets/photos/event-13.jpg
+PHOTO_13_ALT: Guitar or acoustic jam
+PHOTO_14_PATH: assets/photos/event-14.jpg
+PHOTO_14_ALT: Microphone and stage
+PHOTO_15_PATH: assets/photos/event-15.jpg
+PHOTO_15_ALT: Hands clapping at a performance
+PHOTO_16_PATH: assets/photos/event-16.jpg
+PHOTO_16_ALT: Crowd at a jam night
+
+Optional gallery type tiles (replace demo “Slow / Soft” etc.):
+TILE_POSTER_A: Sing
+TILE_POSTER_B: Along
+TILE_BADGE: 20+ nights
+TILE_LOCKUP: Unplugged Raagam
+TILE_QUOTE: judgement free
+TILE_OOO_TITLE: next event
+TILE_OOO_SUB: on Instagram
+
+--- Legal ---
+COPYRIGHT_ENTITY: Unplugged Raagam
+COPYRIGHT_YEAR: 2026
+COPYRIGHT_LINE: © 2026 Unplugged Raagam. Telugu singalong & jamming.
+PRIVACY_URL: (add when ready)
+TERMS_URL: (add when ready)
+
+================================================================================
+PART D — TARGET COPY ON WEBSITE (after build — should match Part C)
+================================================================================
+
+------------------------------------------------------------------------------
+D1. SEO — index.html
+------------------------------------------------------------------------------
+<title>Unplugged Raagam — Telugu singalong & jamming community</title>
+<meta name="description" content="A judgement-free Telugu singalong and jamming community for all levels. 20+ events. Lyrics on screen, no audition. Follow for the next night.">
+
+------------------------------------------------------------------------------
+D2. SEO — gallery.html
+------------------------------------------------------------------------------
+<title>Gallery — Unplugged Raagam</title>
+<meta name="description" content="Photos from 20+ Unplugged Raagam singalongs and jam nights.">
+
+------------------------------------------------------------------------------
+D3. Navigation
+------------------------------------------------------------------------------
+Logo: Unplugged Raagam
+Links: Home | Gallery
+(no RSVP button)
+
+------------------------------------------------------------------------------
+D4. Hero
+------------------------------------------------------------------------------
+Wordmark: Unplugged | Raagam
+Tag: తె | Telugu singalong & jamming community | లు
+Intro: (same as HERO_INTRO in Part C)
+Buttons: See the gallery only
+Hero arch (right): HERO_SIDE_PANEL_TITLE, sub, facts list, Instagram CTA
+
+------------------------------------------------------------------------------
+D5. Our spirit (manifesto)
+------------------------------------------------------------------------------
+Title rule: The Unplugged Raagam spirit
+Body: (SHORT_MANIFESTO_BODY)
+Footnote: (SHORT_MANIFESTO_FOOTNOTE)
+Link: Read our hosts' note → #letter
+
+------------------------------------------------------------------------------
+D6. Host letter
+------------------------------------------------------------------------------
+Headline: Dear singer,
+Body: paragraphs 1–3 from Part C
+Line: Lasya and Pranidhi · Hosts & founders
+Motto: Sing together.
+
+------------------------------------------------------------------------------
+D7. Gallery
+------------------------------------------------------------------------------
+Title: Moments from Unplugged Raagam
+Intro: (GALLERY_INTRO)
+
+------------------------------------------------------------------------------
+D8. Footer
+------------------------------------------------------------------------------
+Email: unpluggedraagam@gmail.com
+Hours line: Event dates & venues — follow us on Instagram
+Follow: Instagram · YouTube · Gallery
+Copyright: © 2026 Unplugged Raagam. Telugu singalong & jamming.
+
+================================================================================
+PART E — NOTES FROM YOUR OTHER PROJECTS (context only)
+================================================================================
+- Poster generator: community that hosts jamming and sing-along events.
+- UR SMM: grow followers/engagement; ~20 past events; reuse performance content;
+  part-time organizers; low-effort content — same brand as this site.
+
+================================================================================
+PART F — WHERE TO APPLY IN CODE
+================================================================================
+scripts/build-site.mjs — constants: meta, NAV, homeHero, homeManifesto, homeLetter,
+  gallerySection, joinFooterPatched, favicon letter “U”
+assets/palette.css — colors
+assets/photos/ — hero-image.jpg, event-01…16, hosts.jpg
+
+================================================================================
+END OF TEMPLATE
+================================================================================

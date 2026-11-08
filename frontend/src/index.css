@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  border: 0;
+  min-height: auto;
+  text-align: left;
+}
+
+@theme {
+  --color-ur-maroon: #3d1414;
+  --color-ur-terracotta: #a35f4d;
+  --color-ur-cream: #faf3ed;
+  --color-ur-panel: #f5ddd3;
+}
+
+@keyframes ur-scroll-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ur-infinite-scroll {
+  animation: ur-scroll-right var(--ur-scroll-duration, 28s) linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ur-infinite-scroll {
+    animation: none;
+    transform: translateX(0);
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.ur-scroll-mask {
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}
+
+.ur-image-item {
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+}
+
+.ur-image-item:hover {
+  transform: scale(1.05);
+  filter: brightness(1.06);
+}
+
+.ur-cafes-section {
+  background: color-mix(in srgb, var(--color-ur-panel) 55%, var(--color-ur-cream));
+}
