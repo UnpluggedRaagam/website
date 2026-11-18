@@ -1376,3 +1376,25 @@ motionKit.scene('journal', () => {
 
 </body>
 </html>
+
+<style data-8b-part="responsive">
+@layer layout {
+  @media (max-width: 374px) {
+    /* Hero adjustments */
+    #hero .hero__photo { width: 90vw; }
+    #hero .hero__lede { padding-bottom: 0; }
+    #hero .hero__actions { justify-content: center; }
+    /* Nav toggle larger hit area */
+    #nav .nav__toggle { width: 48px; height: 48px; }
+    /* Board grid collapse */
+    #board .board__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: auto; }
+    /* Edit section stack */
+    #edit .edit__body { grid-template-columns: 1fr; }
+    #edit .edit__stage { grid-template-columns: 1fr; }
+    /* Journal entry layout */
+    #journal .journal__entry { grid-template-columns: 1fr; }
+    /* Membership cards single column */
+    #membership .membership__cards { grid-template-columns: 1fr; }
+  }
+}
+</style>
