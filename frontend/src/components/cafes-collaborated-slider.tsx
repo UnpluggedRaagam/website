@@ -1,26 +1,15 @@
 import { ImageAutoSlider } from '@/components/ui/image-auto-slider';
+import { cafeImages } from '@/data/cafe-images';
 import { cn } from '@/lib/utils';
 
-const CAFE_COUNT = 15;
-
-function cafeImageUrls(basePath = 'assets/cafes'): string[] {
-  return Array.from({ length: CAFE_COUNT }, (_, i) => {
-    const name = `cafe ${i + 1}.jpg`.replace(/ /g, '%20');
-    return `${basePath}/${name}`;
-  });
-}
-
 export type CafesCollaboratedSliderProps = {
-  /** Public URL prefix for cafe JPEGs (no trailing slash) */
-  imageBasePath?: string;
   className?: string;
 };
 
 export function CafesCollaboratedSlider({
-  imageBasePath = 'assets/cafes',
   className,
 }: CafesCollaboratedSliderProps) {
-  const images = cafeImageUrls(imageBasePath);
+  const images = [...cafeImages];
 
   return (
     <section

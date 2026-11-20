@@ -59,5 +59,13 @@ export const galleryImages = [
   {
     "title": "Event moment 17",
     "url": "assets/gallery/Image%20(17).jpg"
+  },
+  {
+    "title": "DSC_4064",
+    "url": "assets/gallery/DSC_4064.JPG"
+  },
+  {
+    "title": "DSC_4260",
+    "url": "assets/gallery/DSC_4260.JPG"
   }
 ] as const;
